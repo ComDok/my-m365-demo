@@ -3,12 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <title>.Com.Dok - Ihr PC-Spezialist</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background: linear-gradient(to right, #f0f0f0, #d9e6f2);
+      color: #333;
+    }
+
+    #advice {
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    img {
+      margin-bottom: 30px;
+    }
+  </style>
 </head>
 <body>
+  <img src="https://via.placeholder.com/150x50?text=.Com.Dok" alt="ComDok Logo">
+
   <h1>.Com.Dok – Ihr PC-Spezialist & IT-Services</h1>
   <p>Willkommen! Hier finden Sie nützliche Tipps zur Pflege Ihrer Technik.</p>
 
-  <div id="advice" style="margin-top: 20px; font-weight: bold;"></div>
+  <div id="advice"></div>
   <button onclick="showAdvice()">Nächster Tipp</button>
 
   <script src="script.js"></script>
